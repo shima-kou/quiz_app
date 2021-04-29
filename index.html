@@ -2,9 +2,30 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>クイズアプリ</title>
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h2 id="header">ようこそ</h2>
+      <div id="final" class="hidden">
+        <h3 id="score"></h3>
+        <p class="border_text">再度チャレンジしたい場合は以下をクリック</p>
+        <button id="again" class="submit">ホームに戻る</button>
+      </div>
+
+      <div id="quiz" class="hidden">
+        <h3 id="questionParam"></h3>
+        <p id="questionText" class="border_text"></p>
+        <div id="selection"></div>
+      </div>
+
+      <div id="startView">
+        <p id="startText" class="border_text">以下のボタンをクリック</p>
+        <button id="start">始める</button>
+      </div>
+    </main>
+    <script src="./src/main.js"></script>
+  </body>
 </html>
