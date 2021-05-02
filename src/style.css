@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+}
+
+#questionParam span {
+  display: block;
+}
+
+.border_text {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+
+#selection button {
+  display: block;
+}
+
+#selection button + button {
+  margin: 10px 0 0 0;
+}
+
+button {
+  padding: 5px 8px;
+  box-sizing: border-box;
+}
